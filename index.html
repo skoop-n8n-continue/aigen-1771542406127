@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Weather Card</title>
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <div class="weather-card">
+    <div class="left">
+      <div class="top">Sunny</div>
+      <div class="temp">22°F</div>
+      <div class="info">
+        <div class="date">Monday, February 16</div>
+        <div class="location">Location</div>
+      </div>
+      <div class="hilo">H: 22° L: 22°</div>
+    </div>
+    <div class="right">
+      <svg class="sun" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Center circle -->
+        <circle cx="50" cy="50" r="20" fill="#FFEB3B" stroke="#FDD835" stroke-width="3"/>
+        <!-- Rays -->
+        <g stroke="#FDD835" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="50" y1="30" x2="50" y1="10"/>
+          <line x1="50" y1="70" x2="50" y2="90"/>
+          <line x1="30" y1="50" x2="10" y2="50"/>
+          <line x1="70" y1="50" x2="90" y2="50"/>
+          <line x1="37" y1="35" x2="20" y2="18"/>
+          <line x1="63" y1="35" x2="80" y2="18"/>
+          <line x1="37" y1="65" x2="20" y2="82"/>
+          <line x1="63" y1="65" x2="80" y2="82"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</body>
+</html>
